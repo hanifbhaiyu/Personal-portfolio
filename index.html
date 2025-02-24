@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanif's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Hanif</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Hanif</span></h1>
+                <h2>Full Stack Developer</h2>
+                <p>I create beautiful and functional web experiences</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/hanif.jpg" alt="Hanif's Profile">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>I'm a passionate Full Stack Developer with expertise in creating modern web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.</p>
+            <div class="skills">
+                <div class="skill">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript, React</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Python, SQL, MongoDB</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-First, Adaptive Layouts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="https://placehold.co/600x400/4f46e5/ffffff?text=Modern+Web+App" alt="Project 1" class="project-img">
+                <h3>Project One</h3>
+                <p>A modern web application built with React and Node.js</p>
+                <a href="#" class="btn project-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="https://placehold.co/600x400/06b6d4/ffffff?text=E-commerce+Platform" alt="Project 2" class="project-img">
+                <h3>Project Two</h3>
+                <p>Mobile-responsive e-commerce platform</p>
+                <a href="#" class="btn project-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="https://placehold.co/600x400/f472b6/ffffff?text=Chat+Application" alt="Project 3" class="project-img">
+                <h3>Project Three</h3>
+                <p>Real-time chat application using WebSocket</p>
+                <a href="#" class="btn project-btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>your.email@example.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+1 234 567 890</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>City, Country</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Hanif. All rights reserved.</p>
+    </footer>
+</body>
+</html>
